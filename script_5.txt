@@ -1,0 +1,18 @@
+@echo off
+set contador=1
+
+
+1: 
+     if exist f:  (
+
+copy c:\users\sams\Documents\*.*       f:
+copy c:\users\sams\Pictures\*.*  f:
+copy c:\users\sams\Videos\*.*  f:
+copy c:\users\sams\Desktop\*.* f:
+copy c:\users\sams\Downloads\*.*  f:
+ set  /a contador=%contador%+1
+
+
+)
+
+
